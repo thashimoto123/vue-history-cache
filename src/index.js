@@ -37,9 +37,9 @@ export const useHistoryStateCache = (refs, option = {}) => {
   if (opt.init) {
     pickHistoryStateCache()
 
-    window.addEventListener('unload', cacheRefsToHistoryState)
+    window.addEventListener('beforeunload', cacheRefsToHistoryState)
     onUnmounted(() => {
-      window.removeEventListener('unload', cacheRefsToHistoryState)
+      window.removeEventListener('beforeunload', cacheRefsToHistoryState)
     })
   }
 
