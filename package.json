@@ -9,6 +9,10 @@
   },
   "author": "thashimoto123",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thashimoto123/vue-history-cache"
+  },
   "keywords": [
     "vue",
     "history",
