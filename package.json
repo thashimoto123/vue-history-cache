@@ -1,6 +1,6 @@
 {
   "name": "vue-history-cache",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vue.js 2 Composition API library for caching to `History.state`",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
