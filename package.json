@@ -1,0 +1,24 @@
+{
+  "name": "vue-history-cache",
+  "version": "1.0.0",
+  "description": "Vue.js 2 Composition API library for caching to `History.state`",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js --progress"
+  },
+  "author": "thashimoto123",
+  "license": "MIT",
+  "dependencies": {
+    "@vue/composition-api": "^1.1.3",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
